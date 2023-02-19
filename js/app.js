@@ -239,7 +239,7 @@ function updateSubnets() {
     html += '<td>' + bitsToIp(lastIpBits) + '</td>';
     html += '<td>' + bitsToIp(broadcastBits) + '</td>';
     html += '<td>' + bitsToIp(subnetMask) + '</td>';
-    html += '<td>' + bitsToIp(wildMask) + '</td>';
+    // html += '<td>' + bitsToIp(wildMask) + '</td>';
     html += '</tr>';
   }
 
